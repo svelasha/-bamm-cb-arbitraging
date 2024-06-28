@@ -1,0 +1,30 @@
+{
+  "name": "bamm-cb-arbitraging",
+  "version": "1.0.0",
+  "description": "This project use Aave V3 FlashLoan to make profit by buying the ETH discounted sell by B.Protocol Chicken Bond Stability pool [contract](https://etherscan.io/address/0x896d8a30C32eAd64f2e1195C2C8E0932Be7Dc20B).  <br> This project use Aave V3 FlashLoan + Uniswap.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NelsonRodMar/bamm-cb-arbitraging.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NelsonRodMar/bamm-cb-arbitraging/issues"
+  },
+  "homepage": "https://github.com/NelsonRodMar/bamm-cb-arbitraging#readme",
+  "dependencies": {
+    "@flashbots/ethers-provider-bundle": "^0.6.1",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "minimist": "^1.2.7"
+  }
+}
